@@ -1,0 +1,69 @@
+intents:
+- greet
+- name
+- goodbye
+- thanks
+- initiative
+- info
+- medical
+- military
+- chat
+- affirm
+
+
+slots:
+  name:
+    type: text
+
+actions:
+- utter_greet
+- utter_chat
+- utter_name
+- utter_goodbye
+- utter_thanks
+- utter_affirm
+- utter_info
+- utter_medical
+- utter_military
+
+
+templates:
+  
+  utter_greet:
+  - text: "Hello {username}"
+  - text: "Hi there"
+  - text: "hello back!"
+  - text: "hi!"
+  
+  utter_chat:
+  - text: "I am fine. How about you?"
+  
+  utter_name:
+  - text : "My name is ArmyBot."
+  - text: " My name is ArmyBot. I am your chatbot for today!"
+
+  
+  utter_thanks:
+  - text: "You are welcome!"
+  - text: "Glad you enjoyed it!"
+  - text: "My pleasure!" 
+
+ 
+  utter_goodbye:
+  - text: "bye"
+  - text: "Good bye!"
+  - text: "Take care and have a nice day!" 
+
+  utter_affirm:
+  - text: "perfect"
+  - text: "great"
+  
+  utter_info:
+  - text: "I can give you information on today's medical check-up and show some secret videos about military training. Tell me your choice"
+ 
+  utter_medical:
+  - text: "There are 7 stations in total. Approximative waiting time is currently 2 minutes at station 1-6 and 5 minutes at station 7."
+  - text: "You will undergo a medical check-up at 7 different stations. The visit during pick hours can last up to 3 hours but usually is takes less than 1.5h hours."
+ 
+  utter_military:
+  - text : "Here you can watch videos about Air Force, Navy and Police military training."

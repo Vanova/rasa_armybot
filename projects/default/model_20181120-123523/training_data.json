@@ -1,0 +1,309 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hi", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hey", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hi bot", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hey bot", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hello", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "good morning", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hi again", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hi folks", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hi Mister", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hi pal!", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hi there", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "greetings", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hello everybody", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hello is anybody there", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hello robot", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "how are you?", 
+        "intent": "chat"
+      }, 
+      {
+        "text": "how things are?", 
+        "intent": "chat"
+      }, 
+      {
+        "text": "how are you doing?", 
+        "intent": "chat"
+      }, 
+      {
+        "text": "how is it going?", 
+        "intent": "chat"
+      }, 
+      {
+        "text": "long time no see!", 
+        "intent": "chat"
+      }, 
+      {
+        "text": "what is your name?", 
+        "intent": "name"
+      }, 
+      {
+        "text": "your name bro?", 
+        "intent": "name"
+      }, 
+      {
+        "text": "who are you?", 
+        "intent": "name"
+      }, 
+      {
+        "text": "your name?", 
+        "intent": "name"
+      }, 
+      {
+        "text": "name?", 
+        "intent": "name"
+      }, 
+      {
+        "text": "thanks", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "thank you", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "thank you so much", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "thanks bot", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "thanks for that", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "cheers", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "cheers bro", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "ok thanks!", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "perfect thank you", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "thanks a bunch for everything", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "thanks for the help", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "thanks a lot", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "amazing, thanks", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "cool, thanks", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "cool thank you", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "bye", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "goodbye", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "see you later", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "bye bot", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "goodbye friend", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "bye", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "bye for now", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "catch you later", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "gotta go", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "see you", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "goodnight", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "have a nice day", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "i'm off", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "see you later alligator", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "we'll speak soon", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "yes", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "yes sure", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "absolutely", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "for sure", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "yes yes yes", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "definitely", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "what information can you provide?", 
+        "intent": "info"
+      }, 
+      {
+        "text": "what can you do?", 
+        "intent": "info"
+      }, 
+      {
+        "text": "tell me about yourself", 
+        "intent": "info"
+      }, 
+      {
+        "text": "medical", 
+        "intent": "medical"
+      }, 
+      {
+        "text": "i want to know more about medical check-up process.", 
+        "intent": "medical"
+      }, 
+      {
+        "text": "medical check-up please", 
+        "intent": "medical"
+      }, 
+      {
+        "text": "medical check-up", 
+        "intent": "medical"
+      }, 
+      {
+        "text": "I want to know more about military training.", 
+        "intent": "military"
+      }, 
+      {
+        "text": "wow, some secret videos please!", 
+        "intent": "military"
+      }, 
+      {
+        "text": "what military training video?", 
+        "intent": "military"
+      }, 
+      {
+        "text": "really? secret videos? wow!", 
+        "intent": "military"
+      }, 
+      {
+        "text": "gosh, show me that videos", 
+        "intent": "military"
+      }, 
+      {
+        "text": "videos", 
+        "intent": "military"
+      }, 
+      {
+        "text": "videos please", 
+        "intent": "military"
+      }
+    ], 
+    "entity_synonyms": [], 
+    "regex_features": [], 
+    "lookup_tables": []
+  }
+}
